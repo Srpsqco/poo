@@ -1,0 +1,23 @@
+
++---------------------+
+|       Carro         |
++---------------------+
+| - marca: String     |
+| - modelo: String    |
+| - ano: int          |
+| - velocidadeAtual: int|
++---------------------+
+| + Carro()           |
+| + Carro(String, String, int)
+| + acelerar(int)     |
+| + frear(int)        |
+| + getMarca(): String
+| + setMarca(String)  |
+| + getModelo(): String
+| + setModelo(String) |
+| + getAno(): int     |
+| + setAno(int)       |
+| + getVelocidadeAtual(): int
++---------------------+
+
+

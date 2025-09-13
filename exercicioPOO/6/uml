@@ -1,0 +1,30 @@
+
++---------------------+
+|     Publicacao      |
++---------------------+
+| - titulo: String    |
+| - ano: int          |
++---------------------+
+| + Publicacao()      |
+| + Publicacao(String, int)
+| + getTitulo(): String
+| + setTitulo(String) |
+| + getAno(): int     |
+| + setAno(int)       |
+| + exibirInformacoes(): void
++---------------------+
+          △
+          | (herança)
+          |
++---------------------+    +---------------------+
+|        Livro        |    |       Revista       |
++---------------------+    +---------------------+
+| - autor: String     |    | - edicao: String    |
++---------------------+    +---------------------+
+| + Livro()           |    | + Revista()         |
+| + Livro(String, int, String)| + Revista(String, int, String)
+| + getAutor(): String|    | + getEdicao(): String
+| + setAutor(String)  |    | + setEdicao(String) |
+| + exibirInformacoes(): void| + exibirInformacoes(): void
++---------------------+    +---------------------+
+

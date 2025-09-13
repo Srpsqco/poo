@@ -1,0 +1,17 @@
++---------------------+
+|       Livro         |
++---------------------+
+| - titulo: String    |
+| - autor: String     |
+| - anoPublicacao: int|
+| - preco: double     |
++---------------------+
+| + getTitulo(): String
+| + setTitulo(String)
+| + getAutor(): String
+| + setAutor(String)
+| + getAnoPublicacao(): int
+| + setAnoPublicacao(int)
+| + getPreco(): double
+| + setPreco(double)
++---------------------+

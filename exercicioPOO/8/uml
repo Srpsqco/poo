@@ -1,0 +1,35 @@
+
++---------------------+
+|       Veiculo       |
++---------------------+
+| - marca: String     |
+| - modelo: String    |
+| - ano: int          |
+| - valorBase: double |
++---------------------+
+| + Veiculo()         |
+| + Veiculo(String, String, int, double)
+| + getMarca(): String
+| + setMarca(String)  |
+| + getModelo(): String
+| + setModelo(String) |
+| + getAno(): int     |
+| + setAno(int)       |
+| + getValorBase(): double
+| + setValorBase(double)
++---------------------+
+          △
+          | (herança)
+          |
++---------------------+    +---------------------+
+|        Carro        |    |        Moto         |
++---------------------+    +---------------------+
+| - qtdPortas: int    |    | - cilindradas: int  |
++---------------------+    +---------------------+
+| + Carro()           |    | + Moto()            |
+| + Carro(String, String, int, double, int)| + Moto(String, String, int, double, int)
+| + getQtdPortas(): int|   | + getCilindradas(): int
+| + setQtdPortas(int) |    | + setCilindradas(int)
+| + calcularValorRevenda(): double| + calcularValorRevenda(): double
++---------------------+    +---------------------+
+

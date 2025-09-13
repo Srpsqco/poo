@@ -1,0 +1,15 @@
++---------------------+
+|   ContaBancaria     |
++---------------------+
+| - numero: String    |
+| - titular: String   |
+| - saldo: double     |
++---------------------+
+| + getNumero(): String
+| + setNumero(String)
+| + getTitular(): String
+| + setTitular(String)
+| + getSaldo(): double
+| + depositar(double)
+| + sacar(double): boolean
++---------------------+
